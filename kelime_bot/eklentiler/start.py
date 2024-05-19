@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 keyboard = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("➕ Grubuna Ekle", url=f"http://t.me/MajesteKelimeBot?startgroup=new")
+        InlineKeyboardButton("➕ Grubuna Ekle", url=f"http://t.me/@EsilaChatBot?startgroup=new")
     ],
     [
-        InlineKeyboardButton("🇹🇷 Sahibim", url="t.me/MajesteSahip"),
-        InlineKeyboardButton("💬 Chat", url="t.me/majesteler"),
+        InlineKeyboardButton("🇹🇷 Sahibim", url="t.me/debubluman"),
+        InlineKeyboardButton("💬 Chat", url="t.me/sohbetqurulus"),
     ]
 ])
 
@@ -28,10 +28,10 @@ START = """
 
 HELP = """
 **✌️ Komutlar Menüsüne Hoşgeldiniz.**
-/game - Oyunu başlatmak için..
+/kelime - Oyunu başlatmak için..
 /pass - Üç adet hakkınız mevcut, oyunu geçmek için.. 
-/skor - Oyuncular arasındaki rekabet bilgisi..
-/cancel - Oyundan çıkmak için gerekli olan komuttur.. 
+/puan - Oyuncular arasındaki rekabet bilgisi..
+/bitir - Oyundan çıkmak için gerekli olan komuttur.. 
 """
 
 # Komutlar. 
@@ -55,7 +55,7 @@ async def kelimeoyun(c:Client, m:Message):
         aktif = False
 
     if aktif:
-        await m.reply("**❗ Oyun Zaten Grubunuzda Devam Ediyor ✍🏻 \n Oyunu durdurmak için yazıp /cancel durdurabilirsiniz")
+        await m.reply("**❗ Oyun Zaten Grubunuzda Devam Ediyor ✍🏻 \n Oyunu durdurmak için yazıp /bitir durdurabilirsiniz")
     else:
         await m.reply(f"**{m.from_user.mention}** Tarafından! \nKelime Bulma Oyunu Başladı .\n\nİyi Şanslar !", reply_markup=kanal)
         
