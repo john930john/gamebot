@@ -1,4 +1,4 @@
-### Telegram Kelime Oyunu @MajesteBotlar 
+### Telegram Kelime Oyunu @EsilaChatBot
 📝
 ## Deploy to Heroku
 
