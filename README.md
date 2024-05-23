@@ -2,7 +2,7 @@
 📝
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/john930john/gamebot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/saymen930/gamebot)
 
 <h4>🔺 Okteto ile Kurulum 🔻</h4> 
 
